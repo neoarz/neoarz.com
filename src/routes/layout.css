@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 :root {
 	--bg: #171717;
@@ -19,8 +19,8 @@ body {
 
 body {
 	font-family:
-		"CaskaydiaCove Nerd Font", "CaskaydiaCove NF", "IBM Plex Mono",
-		"JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+		'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'IBM Plex Mono', 'JetBrains Mono',
+		'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
 }
 
 a {
@@ -31,7 +31,7 @@ a {
 }
 
 a::after {
-	content: "";
+	content: '';
 	position: absolute;
 	left: 0;
 	bottom: -0.001rem;
@@ -56,4 +56,15 @@ body::-webkit-scrollbar,
 	display: none;
 	width: 0;
 	height: 0;
+}
+
+.error-code {
+	font-size: 3.75rem;
+	line-height: 1;
+}
+
+@media (min-width: 40rem) {
+	.error-code {
+		font-size: 4.5rem;
+	}
 }

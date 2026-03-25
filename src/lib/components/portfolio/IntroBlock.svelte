@@ -17,7 +17,7 @@
 		</h1>
 
 		<div
-			class="shrink-0 whitespace-nowrap bg-(--accent) px-[0.65rem] py-[0.15rem] text-[0.8rem] text-white"
+			class="shrink-0 bg-(--accent) px-[0.65rem] py-[0.15rem] text-[0.8rem] whitespace-nowrap text-white"
 			aria-label="Language badge"
 		>
 			{languageName}
