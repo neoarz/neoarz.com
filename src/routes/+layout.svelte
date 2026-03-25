@@ -14,8 +14,8 @@
 <svelte:head>
 	<link rel="icon" href={favicon} />
 	<link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
+	<meta name="theme-color" content="#171717" />
 	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content={portfolio.socialSiteName} />
 	<meta property="og:title" content={portfolio.socialTitle} />
 	<meta property="og:description" content={portfolio.socialDescription} />
 	<meta property="og:url" content={siteUrl} />
