@@ -8,7 +8,7 @@ export const portfolio: PortfolioData = {
 	seoDescription:
 		"I'm a first-year college student pursuing CIS (Cybersecurity) with a minor in Statistics and Quantitative Modeling.",
 	socialTitle: 'Nazeef Z.',
-	socialDescription: 'First year college student',
+	socialDescription: 'First year college student.',
 	socialSiteName: 'neoarz.com',
 	languageName: 'نظيف',
 	socials: [
