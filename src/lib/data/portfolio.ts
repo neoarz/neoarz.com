@@ -62,7 +62,7 @@ export const portfolio: PortfolioData = {
 		},
 		{
 			id: "neo64fetch",
-			name: "neo64Fetch",
+			name: "neo64fetch",
 			description:
 				"A neofetch alternative written in rust using kitty graphics protocol.",
 			href: "https://github.com/neoarz/neo64fetch",
