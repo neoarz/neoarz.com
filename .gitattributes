@@ -1,1 +1,4 @@
 * text=auto eol=lf
+
+*.svelte linguist-language=Svelte
+bun.lock linguist-generated=true
