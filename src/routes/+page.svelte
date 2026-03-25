@@ -6,11 +6,11 @@
 </script>
 
 <svelte:head>
-	<title>{portfolio.name} | Portfolio</title>
+	<title>{portfolio.name}</title>
 	<meta name="description" content={portfolio.bio} />
 </svelte:head>
 
-<main class="mx-auto grid min-h-[100svh] w-full max-w-240 place-items-center px-6 py-8 sm:px-8 sm:py-10">
+<main class="mx-auto grid min-h-svh w-full max-w-240 place-items-center px-6 py-8 sm:px-8 sm:py-10">
 	<div class="w-full">
 		<IntroBlock
 			name={portfolio.name}
