@@ -6,8 +6,8 @@
 </script>
 
 <svelte:head>
-	<title>{portfolio.name}</title>
-	<meta name="description" content={portfolio.bio} />
+	<title>{portfolio.seoTitle}</title>
+	<meta name="description" content={portfolio.seoDescription} />
 </svelte:head>
 
 <main class="mx-auto grid min-h-svh w-full max-w-240 place-items-center px-6 py-8 sm:px-8 sm:py-10">

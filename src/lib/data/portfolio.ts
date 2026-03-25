@@ -4,6 +4,12 @@ export const portfolio: PortfolioData = {
 	name: 'Nazeef',
 	handle: 'neoarz',
 	bio: "I'm a first-year college student pursuing CIS (Cybersecurity) with a minor in Statistics and Quantitative Modeling. I'm mostly interested in Darwin platforms, but have been learning about software on other platforms as well.",
+	seoTitle: 'Nazeef Z.',
+	seoDescription:
+		"I'm a first-year college student pursuing CIS (Cybersecurity) with a minor in Statistics and Quantitative Modeling.",
+	socialTitle: 'Nazeef Z.',
+	socialDescription: 'First year college student.',
+	socialSiteName: 'neoarz.com',
 	languageName: 'نظيف',
 	socials: [
 		{
