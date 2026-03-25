@@ -10,21 +10,16 @@
 	<meta name="description" content={portfolio.bio} />
 </svelte:head>
 
-<main class="mx-auto w-full max-w-240 px-6 py-4 sm:px-8">
-	<div class="translate-y-20 sm:translate-y-28">
+<main class="mx-auto flex min-h-screen w-full max-w-240 items-center px-6 py-6 sm:px-8">
+	<div class="w-full">
 		<IntroBlock
 			name={portfolio.name}
 			handle={portfolio.handle}
-			handleUrl={portfolio.handleUrl}
 			bio={portfolio.bio}
 			languageName={portfolio.languageName}
 		/>
 
 		<SocialLinks socials={portfolio.socials} />
 		<ProjectList projects={portfolio.projects} />
-
-		<footer class="mt-6 border-t border-(--border) pt-4 text-center text-(--muted)">
-			{portfolio.footerText}
-		</footer>
 	</div>
 </main>

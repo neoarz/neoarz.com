@@ -15,10 +15,8 @@ export interface ProjectItem {
 export interface PortfolioData {
 	name: string;
 	handle: string;
-	handleUrl: string;
 	bio: string;
 	languageName: string;
-	footerText: string;
 	socials: SocialLink[];
 	projects: ProjectItem[];
 }

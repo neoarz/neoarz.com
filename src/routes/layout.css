@@ -14,6 +14,7 @@ body {
 	min-height: 100%;
 	background: var(--bg);
 	color: var(--text);
+	overflow-x: hidden;
 }
 
 body {
@@ -25,4 +26,16 @@ body {
 a {
 	color: inherit;
 	text-underline-offset: 0.18rem;
+}
+
+* {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+	display: none;
+	width: 0;
+	height: 0;
 }
