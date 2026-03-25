@@ -1,1 +1,28 @@
 @import 'tailwindcss';
+
+:root {
+	--bg: #171717;
+	--text: #e5e5e5;
+	--muted: #8f8f8f;
+	--accent: #6d6bff;
+	--border: #2b2b2b;
+}
+
+html,
+body {
+	margin: 0;
+	min-height: 100%;
+	background: var(--bg);
+	color: var(--text);
+}
+
+body {
+	font-family:
+		'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'IBM Plex Mono', 'JetBrains Mono',
+		'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
+}
+
+a {
+	color: inherit;
+	text-underline-offset: 0.18rem;
+}
