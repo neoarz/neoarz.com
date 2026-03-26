@@ -20,7 +20,6 @@ export interface PortfolioData {
 	seoDescription: string;
 	socialTitle: string;
 	socialDescription: string;
-	socialSiteName: string;
 	languageName: string;
 	socials: SocialLink[];
 	projects: ProjectItem[];

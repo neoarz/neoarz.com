@@ -19,7 +19,7 @@ body {
 
 body {
 	font-family:
-		'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'IBM Plex Mono', 'JetBrains Mono',
+		'CaskaydiaCove Nerd Font', 'CaskaydiaCove NF', 'Geist Mono', 'IBM Plex Mono', 'JetBrains Mono',
 		'SFMono-Regular', Consolas, 'Liberation Mono', monospace;
 }
 
@@ -54,8 +54,6 @@ a:focus-visible::after {
 body::-webkit-scrollbar,
 *::-webkit-scrollbar {
 	display: none;
-	width: 0;
-	height: 0;
 }
 
 .error-code {
