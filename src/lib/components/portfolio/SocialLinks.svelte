@@ -15,7 +15,9 @@
 		{#each socials as social (social.id)}
 			<li class="leading-[1.7]">
 				<span class="text-(--text)">{social.platform}:</span>
-				<a href={social.href} target="_blank" rel="external noreferrer">{social.displayText}</a>
+				<a href={social.href} target="_blank" rel="external noopener noreferrer"
+					>{social.displayText}</a
+				>
 			</li>
 		{/each}
 	</ul>

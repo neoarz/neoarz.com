@@ -3,15 +3,22 @@
 	import { portfolio } from '$lib/data/portfolio';
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
+	import type { Snippet } from 'svelte';
 
 	const siteUrl = 'https://neoarz.com';
 	const appleTouchIcon = asset('/apple-touch-icon.png');
 	const socialImageUrl = new URL(appleTouchIcon, siteUrl).toString();
 
-	let { children } = $props();
+	let { children }: { children: Snippet } = $props();
 </script>
 
 <svelte:head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+	<link
+		rel="stylesheet"
+		href="https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@latest/index.css"
+	/>
 	<link rel="icon" href={favicon} />
 	<link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
 	<meta name="theme-color" content="#171717" />
