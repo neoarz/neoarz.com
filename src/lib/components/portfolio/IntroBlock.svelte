@@ -16,15 +16,15 @@
 		</h1>
 
 		<nav class="flex shrink-0 items-center gap-3" aria-label="Webring navigation">
-			<a href="https://ring.liampas.ca/left" rel="external noopener">[←]</a>
-			<a href="https://ring.liampas.ca/" rel="external noopener" class="gif-link">
+			<a href="https://ring.liampas.ca/left">[←]</a>
+			<a href="https://ring.liampas.ca/" class="gif-link">
 				<img
 					src="https://axelobrien.neocities.org/assets/sylvan-webring.gif"
 					alt="[???] webring"
 					class="h-6 w-auto"
 				/>
 			</a>
-			<a href="https://ring.liampas.ca/right" rel="external noopener">[→]</a>
+			<a href="https://ring.liampas.ca/right">[→]</a>
 		</nav>
 	</header>
 
