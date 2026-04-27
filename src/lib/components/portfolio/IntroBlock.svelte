@@ -3,10 +3,9 @@
 		name: string;
 		handle: string;
 		bio: string;
-		languageName: string;
 	}
 
-	let { name, handle, bio, languageName }: Props = $props();
+	let { name, handle, bio }: Props = $props();
 </script>
 
 <section class="mb-8" aria-labelledby="intro-heading">
@@ -16,13 +15,24 @@
 			<span class="text-(--accent)">({handle})</span>
 		</h1>
 
-		<div
-			class="shrink-0 bg-(--accent) px-[0.65rem] py-[0.15rem] text-[0.8rem] whitespace-nowrap text-white"
-			aria-label="Language badge"
-		>
-			{languageName}
-		</div>
+		<nav class="flex shrink-0 items-center gap-3" aria-label="Webring navigation">
+			<a href="https://ring.liampas.ca/left" rel="external noopener">[←]</a>
+			<a href="https://ring.liampas.ca/" rel="external noopener" class="gif-link">
+				<img
+					src="https://axelobrien.neocities.org/assets/sylvan-webring.gif"
+					alt="[???] webring"
+					class="h-6 w-auto"
+				/>
+			</a>
+			<a href="https://ring.liampas.ca/right" rel="external noopener">[→]</a>
+		</nav>
 	</header>
 
 	<p class="m-0 leading-[1.65] text-(--text)">{bio}</p>
 </section>
+
+<style>
+	.gif-link::after {
+		display: none;
+	}
+</style>
