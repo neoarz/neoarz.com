@@ -16,7 +16,6 @@
 			name={portfolio.name}
 			handle={portfolio.handle}
 			bio={portfolio.bio}
-			languageName={portfolio.languageName}
 		/>
 
 		<SocialLinks socials={portfolio.socials} />
