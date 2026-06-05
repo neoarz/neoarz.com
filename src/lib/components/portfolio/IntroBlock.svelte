@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { asset } from '$app/paths';
+
 	interface Props {
 		name: string;
 		handle: string;
@@ -19,7 +21,7 @@
 			<a href="https://ring.liampas.ca/left">[←]</a>
 			<a href="https://ring.liampas.ca/" class="gif-link">
 				<img
-					src="https://axelobrien.neocities.org/assets/sylvan-webring.gif"
+					src={asset('/sylvan-webring.gif')}
 					alt="[???] webring"
 					class="h-6 w-auto"
 				/>
