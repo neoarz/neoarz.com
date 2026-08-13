@@ -215,9 +215,12 @@ export const asciiGlow: Action<HTMLElement, AsciiGlowOptions> = (node, options) 
 		while (trail.length > MAX_TRAIL) trail.shift();
 	};
 
+	const onContextMenu = (e: Event) => e.preventDefault();
+
 	node.addEventListener('mouseenter', onEnter);
 	node.addEventListener('mouseleave', onLeave);
 	node.addEventListener('mousemove', onMove);
+	node.addEventListener('contextmenu', onContextMenu);
 	window.addEventListener('resize', updateRect);
 
 	return {
@@ -226,6 +229,7 @@ export const asciiGlow: Action<HTMLElement, AsciiGlowOptions> = (node, options) 
 			node.removeEventListener('mouseenter', onEnter);
 			node.removeEventListener('mouseleave', onLeave);
 			node.removeEventListener('mousemove', onMove);
+			node.removeEventListener('contextmenu', onContextMenu);
 			window.removeEventListener('resize', updateRect);
 			canvas.remove();
 		}
