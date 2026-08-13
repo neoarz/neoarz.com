@@ -13,15 +13,9 @@
 </script>
 
 <svelte:head>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-	<link
-		rel="stylesheet"
-		href="https://cdn.jsdelivr.net/npm/@fontsource/geist-mono@latest/index.css"
-	/>
 	<link rel="icon" href={favicon} />
 	<link rel="apple-touch-icon" sizes="180x180" href={appleTouchIcon} />
-	<meta name="theme-color" content="#171717" />
+	<meta name="theme-color" content="#0a0a0a" />
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content={portfolio.socialTitle} />
 	<meta property="og:description" content={portfolio.socialDescription} />

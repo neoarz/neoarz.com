@@ -8,22 +8,16 @@
 	let { projects }: Props = $props();
 </script>
 
-<section class="mb-8" aria-labelledby="projects-heading">
-	<h2 id="projects-heading" class="mb-3 text-base text-(--accent)">Projects</h2>
+<section aria-labelledby="projects-heading">
+	<h2 id="projects-heading" class="mt-10 mb-3.5 text-sm font-bold">projects</h2>
 
-	<ul class="m-0 list-disc space-y-4 pl-[1.35rem]">
+	<ul class="m-0 list-none p-0">
 		{#each projects as project (project.id)}
-			<li class="leading-[1.7]">
-				<h3 class="m-0 mb-[0.15rem] text-base">
-					{#if project.href}
-						<a href={project.href} target="_blank" rel="external noopener noreferrer"
-							>{project.name}</a
-						>
-					{:else}
-						{project.name}
-					{/if}
-				</h3>
-				<p class="m-0 leading-[1.6] text-(--muted)">{project.description}</p>
+			<li class="mb-3.5">
+				<a href={project.href} class="underline" target="_blank" rel="external noopener noreferrer"
+					>{project.name}</a
+				>
+				— {project.description}
 			</li>
 		{/each}
 	</ul>

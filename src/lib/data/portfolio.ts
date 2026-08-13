@@ -1,71 +1,54 @@
 import type { PortfolioData } from '$lib/types/portfolio';
 
 export const portfolio: PortfolioData = {
-	name: 'Nazeef',
+	name: 'nazeef',
 	handle: 'neoarz',
-	bio: "I'm a first-year college student pursuing CIS (Cybersecurity) with a minor in Statistics and Quantitative Modeling. I'm mostly interested in Darwin platforms, but have been learning about software on other platforms as well.",
+	bioLines: [
+		'second-year college student pursuing CIS (cybersecurity) with a minor in statistics and quantitative modeling.',
+		'mostly interested in darwin platforms, but learning about software on other platforms too.'
+	],
 	seoTitle: 'Nazeef Z.',
 	seoDescription:
-		"I'm a first-year college student pursuing CIS (Cybersecurity) with a minor in Statistics and Quantitative Modeling.",
+		"I'm a second-year college student pursuing CIS (Cybersecurity) with a minor in Statistics and Quantitative Modeling.",
 	socialTitle: 'Nazeef Z.',
-	socialDescription: 'First year college student.',
+	socialDescription: 'Second year college student.',
 	socials: [
-		{
-			id: 'twitter',
-			platform: '[Elon Platform]',
-			href: 'https://x.com/neoarz',
-			displayText: 'x.com/neoarz'
-		},
-		{
-			id: 'github',
-			platform: 'GitHub',
-			href: 'https://github.com/neoarz',
-			displayText: 'github.com/neoarz'
-		},
-		{
-			id: 'email',
-			platform: 'Email',
-			href: 'mailto:neoarz@proton.me',
-			displayText: 'neoarz[at]proton[dot]me'
-		},
-		{
-			id: 'discord',
-			platform: 'Discord',
-			href: 'https://discord.com/users/218675193592283137',
-			displayText: 'discord.com/users/neoarz'
-		}
+		{ id: 'email', label: 'mail', href: 'mailto:neoarz@proton.me' },
+		{ id: 'twitter', label: 'twitter', href: 'https://x.com/neoarz' },
+		{ id: 'github', label: 'github', href: 'https://github.com/neoarz' },
+		{ id: 'discord', label: 'discord', href: 'https://discord.com/users/218675193592283137' }
 	],
 	projects: [
 		{
 			id: 'sidestore',
-			name: 'Sidestore',
+			name: 'sidestore',
 			description:
-				'SideStore is an untethered, community driven alternative app store for non-jailbroken iOS devices.',
+				'an untethered, community-driven alternative app store for non-jailbroken iOS devices.',
 			href: 'https://sidestore.io'
 		},
 		{
-			id: 'countdown',
-			name: 'Countdown',
-			description: "If you could know exactly when you're going to die, would you want to know?",
-			href: 'https://github.com/neoarz/countdown-app'
-		},
-		{
 			id: 'stikdebug',
-			name: 'StikDebug',
-			description: 'An on-device debugger/JIT enabler for iOS versions 17.4+, powered by idevice.',
+			name: 'stikdebug',
+			description: 'an on-device debugger/JIT enabler for iOS 17.4+, powered by idevice.',
 			href: 'https://github.com/StephenDev0/StikDebug'
 		},
 		{
 			id: 'syntrel',
-			name: 'Syntrel',
+			name: 'syntrel',
 			description:
-				'A multi-purpose discord bot used in servers like SideStore, iDevice, MeloNX and more.',
+				'a multi-purpose discord bot used in servers like SideStore, idevice, and MeloNX.',
 			href: 'https://github.com/neoarz/syntrel'
+		},
+		{
+			id: 'countdown',
+			name: 'countdown',
+			description: "if you could know exactly when you're going to die, would you want to know?",
+			href: 'https://github.com/neoarz/countdown-app'
 		},
 		{
 			id: 'neo64fetch',
 			name: 'neo64fetch',
-			description: 'A neofetch alternative written in rust using kitty graphics protocol.',
+			description: 'a neofetch alternative written in rust using the kitty graphics protocol.',
 			href: 'https://github.com/neoarz/neo64fetch'
 		}
 	]

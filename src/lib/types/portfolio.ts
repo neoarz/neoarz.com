@@ -1,21 +1,20 @@
 export interface SocialLink {
 	id: string;
-	platform: string;
+	label: string;
 	href: string;
-	displayText: string;
 }
 
 export interface ProjectItem {
 	id: string;
 	name: string;
 	description: string;
-	href?: string;
+	href: string;
 }
 
 export interface PortfolioData {
 	name: string;
 	handle: string;
-	bio: string;
+	bioLines: string[];
 	seoTitle: string;
 	seoDescription: string;
 	socialTitle: string;
