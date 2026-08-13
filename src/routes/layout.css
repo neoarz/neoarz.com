@@ -1,7 +1,4 @@
 @import 'tailwindcss';
-@import '@fontsource/geist-mono/400.css';
-@import '@fontsource/geist-mono/700.css';
-
 :root {
 	--bg: #0a0a0a;
 	--text: #e0e0e0;
@@ -21,8 +18,7 @@ body {
 
 body {
 	font-family:
-		'Geist Mono', 'IBM Plex Mono', 'JetBrains Mono', 'SFMono-Regular', Consolas, 'Liberation Mono',
-		monospace;
+		'SF Mono', 'Monaco', 'Inconsolata', 'Fira Mono', 'Droid Sans Mono', 'Source Code Pro', monospace;
 }
 
 @layer base {
