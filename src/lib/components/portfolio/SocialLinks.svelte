@@ -12,7 +12,6 @@
 	{#each socials as social, i (social.id)}
 		<a href={social.href} class="underline" target="_blank" rel="external noopener noreferrer"
 			>{social.label}</a
-		>{#if i < socials.length - 1}&nbsp;||
-		{/if}
+		>{#if i < socials.length - 1}&nbsp;||&nbsp;{/if}
 	{/each}
 </p>
