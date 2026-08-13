@@ -3,11 +3,11 @@
 @import '@fontsource/cascadia-code/400-italic.css';
 
 :root {
-	--bg: #171717;
-	--text: #e5e5e5;
-	--muted: #8f8f8f;
-	--accent: #6d6bff;
-	--border: #2b2b2b;
+	--bg: #0a0a0a;
+	--text: #e0e0e0;
+	--muted: #7c7c88;
+	--accent: #e0e0e0;
+	--border: #27272a;
 }
 
 html,
@@ -26,26 +26,8 @@ body {
 }
 
 a {
-	position: relative;
-	display: inline-block;
 	color: inherit;
 	text-decoration: none;
-}
-
-a::after {
-	content: '';
-	position: absolute;
-	left: 0;
-	bottom: -0.001rem;
-	width: 100%;
-	height: 1px;
-	background: currentColor;
-	opacity: 0;
-}
-
-a:hover::after,
-a:focus-visible::after {
-	opacity: 1;
 }
 
 * {
@@ -56,15 +38,4 @@ a:focus-visible::after {
 body::-webkit-scrollbar,
 *::-webkit-scrollbar {
 	display: none;
-}
-
-.error-code {
-	font-size: 3.75rem;
-	line-height: 1;
-}
-
-@media (min-width: 40rem) {
-	.error-code {
-		font-size: 4.5rem;
-	}
 }
