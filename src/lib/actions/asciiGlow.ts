@@ -41,6 +41,8 @@ export const asciiGlow: Action<HTMLElement, AsciiGlowOptions> = (node, options) 
 	canvas.style.position = 'absolute';
 	canvas.style.bottom = '0';
 	canvas.style.right = '0';
+	canvas.style.pointerEvents = 'none';
+	canvas.style.userSelect = 'none';
 	node.appendChild(canvas);
 	const ctx = canvas.getContext('2d');
 	if (!ctx) return;
