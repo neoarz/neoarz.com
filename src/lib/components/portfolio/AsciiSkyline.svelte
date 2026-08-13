@@ -32,13 +32,13 @@
 		opacity: 1;
 		transition: opacity 0.4s ease;
 		-webkit-mask-image:
-			linear-gradient(to left, black 0px, black 900px, transparent 1800px),
-			linear-gradient(to right, transparent 0px, black 250px),
+			linear-gradient(to left, black 0px, black 900px, rgb(0 0 0 / 0.4) 1700px, transparent 2300px),
+			linear-gradient(to right, transparent 0px, black 150px),
 			linear-gradient(to top, rgb(0 0 0 / 0.8) 0px, rgb(0 0 0 / 0.45) 300px, transparent 650px);
 		-webkit-mask-composite: source-in;
 		mask-image:
-			linear-gradient(to left, black 0px, black 900px, transparent 1800px),
-			linear-gradient(to right, transparent 0px, black 250px),
+			linear-gradient(to left, black 0px, black 900px, rgb(0 0 0 / 0.4) 1700px, transparent 2300px),
+			linear-gradient(to right, transparent 0px, black 150px),
 			linear-gradient(to top, rgb(0 0 0 / 0.8) 0px, rgb(0 0 0 / 0.45) 300px, transparent 650px);
 		mask-composite: intersect;
 	}
