@@ -30,7 +30,7 @@ export const portfolio: PortfolioData = {
 			id: 'stikdebug',
 			name: 'stikdebug',
 			description: 'an on-device debugger/JIT enabler for iOS 17.4+, powered by idevice.',
-			href: 'https://github.com/StephenDev0/StikDebug'
+			href: 'https://github.com/StikDebug/StikDebug'
 		},
 		{
 			id: 'syntrel',
