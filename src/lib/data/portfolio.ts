@@ -13,7 +13,7 @@ export const portfolio: PortfolioData = {
 	socialTitle: 'Nazeef Z.',
 	socialDescription: 'Second year college student.',
 	socials: [
-		{ id: 'email', label: 'mail', href: 'mailto:neoarz@proton.me' },
+		{ id: 'email', label: 'mail', href: 'mailto:m@neoarz.com' },
 		{ id: 'twitter', label: 'twitter', href: 'https://x.com/neoarz' },
 		{ id: 'github', label: 'github', href: 'https://github.com/neoarz' },
 		{ id: 'discord', label: 'discord', href: 'https://discord.com/users/218675193592283137' }
