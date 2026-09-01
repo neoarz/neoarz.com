@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 512 512">
+  <title>neoarz</title>
+  <rect width="512" height="512" fill="#7b3032"/>
+  <circle cx="256" cy="270" r="181" fill="#d5a373"/>
+  <path d="M79 219C85 89 164 35 256 35s171 54 177 184c-54-28-115-43-177-43S133 191 79 219Z" fill="#504e4d"/>
+  <path d="M91 170c55-28 109-41 165-41s110 13 165 41l-9 44c-50-23-102-34-156-34S150 191 100 214Z" fill="#d8c8a8"/>
+  <path d="M108 125c44-32 93-48 148-48s104 16 148 48l-15 37c-40-25-84-37-133-37s-93 12-133 37Z" fill="#eee2c8"/>
+  <path d="M135 94c35-39 76-59 121-59s86 20 121 59c-38-15-78-23-121-23s-83 8-121 23Z" fill="#6f6e6c"/>
+  <ellipse cx="189" cy="271" rx="31" ry="36" fill="#fff"/>
+  <ellipse cx="323" cy="271" rx="31" ry="36" fill="#fff"/>
+  <circle cx="193" cy="274" r="16" fill="#2b1d1b"/>
+  <circle cx="319" cy="274" r="16" fill="#2b1d1b"/>
+  <circle cx="199" cy="267" r="5" fill="#fff"/>
+  <circle cx="325" cy="267" r="5" fill="#fff"/>
+  <path d="M249 280c-6 27-7 48 7 53 9 3 18 0 26-8" fill="none" stroke="#a96f52" stroke-width="10" stroke-linecap="round"/>
+  <path d="M210 367c29 18 63 18 92 0" fill="none" stroke="#713d3e" stroke-width="13" stroke-linecap="round"/>
+  <path d="M112 405c44-38 92-56 144-56s100 18 144 56v107H112Z" fill="#9b242d"/>
+  <path d="M227 353h58l34 159H193Z" fill="#b8bdba"/>
+  <path d="M256 357v155" stroke="#6e7372" stroke-width="10"/>
+</svg>

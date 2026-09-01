@@ -1,0 +1,19 @@
+{
+	"name": "neoarz",
+	"short_name": "neoarz",
+	"icons": [
+		{
+			"src": "/favicon-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/avatar.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#0a0a0a",
+	"background_color": "#0a0a0a",
+	"display": "standalone"
+}
