@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import AsciiSkyline from '$lib/components/portfolio/AsciiSkyline.svelte';
 	import IntroBlock from '$lib/components/portfolio/IntroBlock.svelte';
 	import ProjectList from '$lib/components/portfolio/ProjectList.svelte';
@@ -9,6 +10,11 @@
 <svelte:head>
 	<title>{portfolio.seoTitle}</title>
 	<meta name="description" content={portfolio.seoDescription} />
+	<link
+		rel="discord:component-embed"
+		type="application/json"
+		href={new URL(resolve('/discord-embed.json'), 'https://neoarz.com').href}
+	/>
 </svelte:head>
 
 <main class="max-w-[600px] p-10 text-sm leading-[1.7]">
