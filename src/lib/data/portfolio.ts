@@ -27,6 +27,12 @@ export const portfolio: PortfolioData = {
 			href: 'https://sidestore.io'
 		},
 		{
+			id: 'zeroleaks',
+			name: 'zeroleaks',
+			description: 'AI security platform that tests for prompt injection and system prompt leaks.',
+			href: 'https://zeroleaks.ai'
+		},
+		{
 			id: 'stikdebug',
 			name: 'stikdebug',
 			description: 'an on-device debugger/JIT enabler for iOS 17.4+, powered by idevice.',
