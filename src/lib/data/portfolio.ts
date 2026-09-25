@@ -16,7 +16,8 @@ export const portfolio: PortfolioData = {
 		{ id: 'email', label: 'mail', href: 'mailto:mail@neoarz.com' },
 		{ id: 'twitter', label: 'twitter', href: 'https://x.com/neoarz' },
 		{ id: 'github', label: 'github', href: 'https://github.com/neoarz' },
-		{ id: 'discord', label: 'discord', href: 'https://discord.com/users/218675193592283137' }
+		{ id: 'discord', label: 'discord', href: 'https://discord.com/users/218675193592283137' },
+		{ id: 'terminal', label: 'terminal', href: 'https://neoarz.dev' }
 	],
 	projects: [
 		{
