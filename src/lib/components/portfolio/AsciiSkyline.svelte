@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { asciiGlow } from '$lib/actions/asciiGlow';
-	import asciiArt from '$lib/assets/ascii.txt?raw';
+	import { asciiGlow } from '#lib/actions/asciiGlow.js';
+	import asciiArt from '#lib/assets/ascii.txt?raw';
 
 	let isMobile = $state(false);
 	let mounted = $state(false);

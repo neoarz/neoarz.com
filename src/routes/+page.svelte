@@ -1,10 +1,10 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import AsciiSkyline from '$lib/components/portfolio/AsciiSkyline.svelte';
-	import IntroBlock from '$lib/components/portfolio/IntroBlock.svelte';
-	import ProjectList from '$lib/components/portfolio/ProjectList.svelte';
-	import SocialLinks from '$lib/components/portfolio/SocialLinks.svelte';
-	import { portfolio } from '$lib/data/portfolio';
+	import AsciiSkyline from '#lib/components/portfolio/AsciiSkyline.svelte';
+	import IntroBlock from '#lib/components/portfolio/IntroBlock.svelte';
+	import ProjectList from '#lib/components/portfolio/ProjectList.svelte';
+	import SocialLinks from '#lib/components/portfolio/SocialLinks.svelte';
+	import { portfolio } from '#lib/data/portfolio.js';
 </script>
 
 <svelte:head>
