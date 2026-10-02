@@ -5,7 +5,7 @@
 	import { page } from '$app/state';
 
 	onMount(() => {
-		goto(resolve('/'), { replaceState: true });
+		goto(resolve('/'), { replace: true });
 	});
 </script>
 

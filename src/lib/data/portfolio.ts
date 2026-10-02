@@ -1,4 +1,4 @@
-import type { PortfolioData } from '$lib/types/portfolio';
+import type { PortfolioData } from '#lib/types/portfolio.js';
 
 export const portfolio: PortfolioData = {
 	name: 'nazeef',
