@@ -1,14 +1,13 @@
-import { base } from '$app/paths';
-import { json } from '@sveltejs/kit';
-import { portfolio } from '$lib/data/portfolio';
+import { resolve } from '$app/paths';
+import { portfolio } from '#lib/data/portfolio.js';
 
 export const prerender = true;
 export const trailingSlash = 'never';
 
 export function GET() {
-	const siteUrl = `https://neoarz.com${base}/`;
+	const siteUrl = new URL(resolve('/'), 'https://neoarz.com').href;
 
-	return json({
+	return Response.json({
 		component: {
 			type: 17,
 			accent_color: null,

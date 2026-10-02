@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { ProjectItem } from '$lib/types/portfolio';
+	import type { ProjectItem } from '#lib/types/portfolio.js';
 
 	interface Props {
 		projects: ProjectItem[];
