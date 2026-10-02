@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { SocialLink } from '$lib/types/portfolio';
+	import type { SocialLink } from '#lib/types/portfolio.js';
 
 	interface Props {
 		socials: SocialLink[];
